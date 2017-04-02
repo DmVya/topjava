@@ -16,6 +16,7 @@ public class MockUserRepositoryImpl implements UserRepository {
     @Override
     public boolean delete(int id) {
         LOG.info("delete " + id);
+        System.out.println();
         return true;
     }
 
